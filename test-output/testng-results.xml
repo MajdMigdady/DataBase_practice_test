@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-15T16:25:16 EET" name="Default suite" finished-at="2025-05-15T16:25:20 EET" duration-ms="4225">
+    <groups>
+    </groups>
+    <test started-at="2025-05-15T16:25:16 EET" name="Default test" finished-at="2025-05-15T16:25:20 EET" duration-ms="4225">
+      <class name="DataBaseTesting.DataBaseTesting.AppTest">
+        <test-method is-config="true" signature="mySetup()[pri:0, instance:DataBaseTesting.DataBaseTesting.AppTest@37efd131]" started-at="2025-05-15T16:25:16 EET" name="mySetup" finished-at="2025-05-15T16:25:20 EET" duration-ms="3812" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mySetup -->
+        <test-method signature="InsertIntoDatabase()[pri:1, instance:DataBaseTesting.DataBaseTesting.AppTest@37efd131]" started-at="2025-05-15T16:25:20 EET" name="InsertIntoDatabase" finished-at="2025-05-15T16:25:20 EET" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InsertIntoDatabase -->
+        <test-method signature="DeleteDatabase()[pri:2, instance:DataBaseTesting.DataBaseTesting.AppTest@37efd131]" started-at="2025-05-15T16:25:20 EET" name="DeleteDatabase" finished-at="2025-05-15T16:25:20 EET" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteDatabase -->
+        <test-method signature="UpdateDatabase()[pri:2, instance:DataBaseTesting.DataBaseTesting.AppTest@37efd131]" started-at="2025-05-15T16:25:20 EET" name="UpdateDatabase" finished-at="2025-05-15T16:25:20 EET" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateDatabase -->
+        <test-method signature="ReadDatabase()[pri:3, instance:DataBaseTesting.DataBaseTesting.AppTest@37efd131]" started-at="2025-05-15T16:25:20 EET" name="ReadDatabase" finished-at="2025-05-15T16:25:20 EET" duration-ms="335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReadDatabase -->
+      </class> <!-- DataBaseTesting.DataBaseTesting.AppTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
